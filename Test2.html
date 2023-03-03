@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+	<title>Comprehension</title>
+	<style>
+		body {
+            background-color: #817f7f; /* Couleur de fond de la page */
+			margin: 0;
+			padding: 0;
+		}
+/*creation de la barre latérale */
+		.sidebar {
+			background-color: #87CEEB;
+			position: fixed;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 200px;
+			box-sizing: border-box;
+			padding: 20px;
+		}
+/* emplacement de la marge pour intégré l'image - le border-radius sert a creer l'effet rond*/
+		.sidebar img {
+			display: block;
+			margin: 0 auto;
+			border-radius: 50%;
+			width: 100px;
+			height: 100px;
+		}
+
+		.sidebar h1 {
+			margin: 20px 0 10px 0;
+			font-size: 24px;
+			text-align: center;
+		}
+
+		.menu {
+			margin-top: 50px;
+			list-style: none;
+			padding: 0;
+			text-align: center;
+		}
+
+		.menu li {
+			margin-bottom: 20px;
+		}
+        .menu li a {
+			display: block;
+			font-size: 18px;
+			font-weight: bold;
+			text-decoration: none;
+			color: #333;
+			padding: 10px 0;
+			border-bottom: 1px solid #ccc;
+			transition: all 0.3s ease;
+		}
+		
+		.menu li a:hover {
+			color: #FFD700;
+			background-color: #87CEEB;
+		}
+/* On creer la marge*/
+		.main-content {
+			margin-left: 200px;
+			padding: 20px;
+		}
+	</style>
+</head>
+<body>
+    <div class="sidebar">
+		<img src="https://i.pinimg.com/originals/99/cd/35/99cd35808e1cc16026e55b00e39cc69a.jpg" alt="Profile Picture">
+		<h1>Houari notre Gojo</h1>
+		<ul class="menu">
+			<li><a href="#">Accueil</a></li>
+			<li><a href="#">La liste</a></li>
+			<li><a href="#">Contact</a></li>
+            <li><a href="#">Réglage</a></li>
+		</ul>
+	</div>
+		<!-- Contenu principal de la page -->
+	</div>
+</body>
+</html>
+
+
+
+
