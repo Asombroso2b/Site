@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<head>
+    <title>Formulaire de commande</title>
+	<style>
+		fieldset {
+            margin: 0 auto;
+            max-width: 70%;
+			border: 1px solid #ccc;
+			padding: 10px;
+			margin-bottom: 20px;
+		}
+		legend {
+            margin: 0 auto;
+            max-width: 80%;
+			font-size: 20px;
+			font-weight: bold;
+		}
+		table {
+            margin: 0 auto;
+            max-width: 80%;
+			border-collapse: collapse;
+			width: 100%;
+		}
+		th, td {
+			padding: 10px;
+			text-align: center;
+			border: 1px solid #ccc;
+		}
+	</style>
+	<title>Comprehension</title>
+	<style>
+		body {
+            background-color: #863131; /* Couleur de fond de la page */
+			margin: 0;
+			padding: 0;
+		}
+/*creation de la barre latérale */
+		.sidebar {
+			background-color: #4b5243;
+			position: fixed;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 200px;
+			box-sizing: border-box;
+			padding: 20px;
+		}
+/* emplacement de la marge pour intégré l'image - le border-radius sert a creer l'effet rond*/
+		.sidebar img {
+			display: block;
+			margin: 0 auto;
+			border-radius: 50%;
+			width: 100px;
+			height: 100px;
+		}
+
+		.sidebar h1 {
+			margin: 20px 0 10px 0;
+			font-size: 24px;
+			text-align: center;
+		}
+
+		.menu {
+			margin-top: 50px;
+			list-style: none;
+			padding: 0;
+			text-align: center;
+		}
+
+		.menu li {
+			margin-bottom: 20px;
+		}
+        .menu li a {
+			display: block;
+			font-size: 18px;
+			font-weight: bold;
+			text-decoration: none;
+			color: #333;
+			padding: 10px 0;
+			border-bottom: 1px solid #ccc;
+			transition: all 0.3s ease;
+		}
+		
+		.menu li a:hover {
+			color: #0b0b07;
+			background-color: #c9c550;
+		}
+/* On creer la marge*/
+		.main-content {
+			margin-left: 200px;
+			padding: 20px;
+		}
+	</style>
+</head>
+<title>Formulaire de commande</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+<body>
+    <div class="main-content"></div>
+    <form action="#" method="post">
+    <fieldset>
+        <legend>Formulaire de commande</legend>
+        <label for="societe">Nom de la société :</label>
+        <input type="text" id="societe" name="societe"><br><br>
+        <label for="lieux">Lieux de livraison :</label>
+        <input type="text" id="lieux" name="lieux"><br><br>
+        <label for="date">Date de livraison souhaitée :</label>
+        <input type="date" id="date" name="date"><br><br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Article</th>
+                    <th>Bouteille</th>
+                    <th>Carton</th>
+                    <th>Palette</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pietra</td>
+                    <td><input type="number" name="article1-bouteille" min="0"></td>
+                    <td><input type="number" name="article1-carton" min="0"></td>
+                    <td><input type="number" name="article1-palette" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Serena</td>
+                    <td><input type="number" name="article2-bouteille" min="0"></td>
+                    <td><input type="number" name="article2-carton" min="0"></td>
+                    <td><input type="number" name="article2-palette" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Colomba</td>
+                    <td><input type="number" name="article3-bouteille" min="0"></td>
+                    <td><input type="number" name="article3-carton" min="0"></td>
+                    <td><input type="number" name="article3-palette" min="0"></td>
+                </tr>
+            </tbody>
+        </table>
+        <input type="submit" value="Envoyer">
+    </fieldset>
+</form>
+    <div class="sidebar">
+		<img src="https://ankorstore.imgix.net/brands/rounded/30901-47df32397a5668.jpg?auto=compress&fm=pjpg&h=158&dpr=2" alt="Profile Picture">
+		<h1>Brasserie Pietra</h1>
+		<ul class="menu">
+			<li><a href="#">Accueil</a></li>
+			<li><a href="#">Liste des Articles</a></li>
+            <li><a href="#">Tarification</a></li>
+			<li><a href="#">Contact</a></li>
+            <li><a href="#">Réglage</a></li>
+        </div> 
+            </form>
+		</ul>
+	</div>
+</body>
+</html>
+
+
+
+
